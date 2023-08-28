@@ -9,6 +9,7 @@ import org.springframework.context.annotation.PropertySource;
 public class SpringBootCrudExample2Application {
 
 	public static void main(String[] args) {
+		System.out.println("Hello App");
 		SpringApplication.run(SpringBootCrudExample2Application.class, args);
 	}
 
